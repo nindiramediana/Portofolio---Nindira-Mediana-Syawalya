@@ -1,0 +1,175 @@
+/* ::root {
+    -clr-pr : #333;
+    -clr-sec : red;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: ;
+    text-decoration: none;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+}
+
+.logo {
+    width: 20px;
+    aspect-ratio: 1;
+    background: #9acaed;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.active {
+    border-top: 2px solid rgb(240, 173, 240);
+}
+
+.bio {
+    top: 50px;
+    right: 18.2%;
+}
+
+.educ {
+
+}
+
+/* NAVBAR SECTION */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 60px;
+    background-color: rgb(90, 85, 85);
+
+}
+
+.nav .logo {
+    font-size: 64px;
+    color: rgb(211, 200, 112);
+}
+
+.nav .menu {
+    font-size: 16px;
+    margin: auto 0;
+}
+
+.nav .menu a {
+    margin: 0 10px;
+    color: purple;
+    background-color: rgb(187, 127, 187, 0);
+    border-radius: 10px;
+    padding: 5px 10px;
+    width: fit-content;
+}
+
+.nav .menu a:hover {
+    background-color: rgb(187, 127, 187, 1);
+    color: pink;
+}
+
+/* CONTENT */
+.about {
+    margin: 5em auto;
+    width: 60%;
+    background-color: purple;
+    padding: 50px;
+    border-radius: 10px;
+    color: #f3f3f3;
+}
+
+.about h2 {
+    font-size: 40px;
+}
+
+.about p {
+    margin-bottom: 30px;
+}
+
+.about ul {
+    list-style: none;
+}
+
+.about ul li {
+    display: flex;
+    align-items: center;
+}
+
+.about ul li .email {
+    width: 20px;
+    aspect-ratio: 1;
+    background: #333;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+.about ul li .wa {
+    width: 20px;
+    aspect-ratio: 1;
+    background: #333;
+    margin: 5px;
+    border-radius: 50%;
+}
+
+/* BIODATA */
+.biodata {
+    width: 60%;
+    background-color: rgb(168, 123, 168);
+    margin: 5em auto;
+    padding: 50px;
+    border-radius: 10px;
+    color: #f3f3f3;
+}
+
+.biodata h2 {
+    margin: 0 0 10px;
+    font-size: 40px;
+}
+
+.biodata ul li{
+    display: flex;
+    align-items: center;
+}
+
+/* EDUC */
+.pendidikan {
+    margin: 15em auto;
+    position: relative;
+}
+
+.pendidikan-bg {
+    position: absolute;
+    display: flex;
+    background: rgb(137, 187, 137);
+    width: 90%;
+    height: 250px;
+    z-index: -1;
+    top: -75%;
+    left: 5%;
+    border-radius: 20px;
+}
+
+.pendidikan ul {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    border-top: 1px solid #f3f3f3;
+}
+
+.pendidikan ul li a {
+    margin: 5px;
+}
+
+.pendidikan ul li a:after {
+    display: flex;
+    position: absolute;
+    content: '';
+    width: 10px;
+    aspect-ratio: 1;
+    background: #f3f3f3;
+    border-radius: 50%;
+    top: -4%;
+}
